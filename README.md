@@ -57,7 +57,9 @@ Reference to install docker -  https://docs.docker.com/docker-for-mac/install/
 Start the docker instance.  
 
 Execute the below commands from command line based on the IDE. To make project IDE compatible.  
-  For eclipse '''sh $ ./gradlew eclipse'''   
+  For eclipse '''sh 
+$ ./gradlew eclipse
+'''   
   For intellij '''sh $ ./gradlew idea'''     
 
 Build JAR  '''sh $ ./gradlew clean build'''   
