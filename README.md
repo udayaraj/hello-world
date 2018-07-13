@@ -64,44 +64,42 @@ Reference to install docker -  https://docs.docker.com/docker-for-mac/install/
 Start the docker instance.  
 
 Execute the below commands from command line based on the IDE. To make project IDE compatible.   
-  For eclipse   
+For eclipse   
   ```sh
   $ ./gradlew eclipse
-  ```  
- 
-  For intellij   
-    ```sh
-    $ ./gradlew idea
-    ```  
-
+  ```    
+For intellij   
+  ```sh
+  $ ./gradlew idea
+  ```    
 Build JAR  
-    ```sh
-    $ ./gradlew clean build
-    ```  
+  ```sh
+  $ ./gradlew clean build
+  ```   
 
 To bring up cassandra in docker container   
-    ```sh
-    $ cd docker
-    ```  
-    ```sh
-    $ ./docker.sh
-    ```  
-    ```sh
-    $ ./schema.sh
-    ```  
-        
+  ```sh
+  $ cd docker
+  ```   
+  ```sh
+  $ ./docker.sh
+  ```   
+  ```sh
+  $ ./schema.sh
+  ```   
+    
 docker.sh - To spin up cassandra docker image.  
 
-schema.sh - To create required keyspace, Also inserts sample data into table.  
+schema.sh - To create required keyspace, Also inserts sample data into table.   
 
 ## Run the App   
- Either of the options can be used  
-     ```sh
-     $ ./gradlew bootRun
-     ```  
-     ```sh
-     $ java -jar productsapi-0.0.1-SNAPSHOT.jar
-     ```  
-     ```sh
-     $ To start app in IDE (Run ProductsapiApplication.java class)
-     ```  
+Either of the options can be used  
+  ```sh
+  $ ./gradlew bootRun
+  ```   
+  ```sh
+  $ java -jar productsapi-0.0.1-SNAPSHOT.jar
+  ```   
+  ```sh
+  $ To start app in IDE (Run ProductsapiApplication.java class)
+  ```    
