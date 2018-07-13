@@ -11,7 +11,8 @@ Docker - Run cassandra container.
 
 GET - http://localhost:8080/myretail/v1/products/{id}  
 PUT - http://localhost:8080/myretail/v1/products/{id}  
-#Example: Request - GET URL - http://localhost:8080/myretail/v1/products/52328755  
+## Example:  
+Request - GET URL - http://localhost:8080/myretail/v1/products/52328755   
 
 Response:  
 
@@ -55,7 +56,7 @@ Reference to install docker -  https://docs.docker.com/docker-for-mac/install/
 
 Start the docker instance.  
 
-## Execute the below commands from command line based on the IDE. To make project IDE compatible.  
+Execute the below commands from command line based on the IDE. To make project IDE compatible.  
   For eclipse ./gradlew eclipse  
   For intellij ./gradlew idea  
 
