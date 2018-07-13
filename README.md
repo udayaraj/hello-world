@@ -1,7 +1,11 @@
 # productsapi  
 This RESTful service provides product details along with product price.  
 ## Technology Stack:  
-
+```sh
+$ cd dillinger
+$ npm install -d
+$ node app
+```
 SpringBoot - RESTful service development  
 Cassandra  - NoSQL database to store the product price details  
 Gradle - Build Tool  
